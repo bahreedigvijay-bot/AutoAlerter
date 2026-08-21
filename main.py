@@ -13,11 +13,11 @@ from solar_validation import get_solar_energy_today
 
 INTERVAL_SECONDS = 5 * 60
 ALERT_RANGE_LOW = 218
-ALERT_RANGE_HIGH = 220
+ALERT_RANGE_HIGH = 230
 
 IST = ZoneInfo("Asia/Kolkata")
 SOLAR_CHECK_HOUR_IST = 12
-SOLAR_MIN_ENERGY = 100
+SOLAR_MIN_ENERGY = 10
 SOLAR_ALERT_TOPIC = os.getenv("solar_alerter_topic")
 
 
